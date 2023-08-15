@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-txt {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 18px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.425);
+}
+.header-txt p {
+  margin: 0;
+}
+
+.bg {
+  background-image: url(../images/fondo1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.navbar-index {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+  padding: 0;
+  margin-bottom: 25px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+.navbar-index li {
+  word-spacing: 2rem;
+}
+.navbar-index .borde {
+  border-bottom: solid 1px black;
+}
+.navbar-index a {
+  text-decoration: none;
+  color: black;
+  word-spacing: 2em;
+}
+
+h3 {
+  margin-left: 55px;
+  margin-bottom: 20px;
+}
+
+.turnos {
+  display: flex;
+  margin-bottom: 25px;
+}
+.turnos p {
+  margin-left: 15px;
+  cursor: pointer;
+}
+.turnos .borde {
+  border-bottom: solid 1px black;
+}
+
+#containerForm {
+  text-align: center;
+}
+#containerForm #formEspontaneos input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+}
+#containerForm #formEspontaneos button {
+  cursor: pointer;
+  padding: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.301);
+  border-radius: 5px;
+  background-color: rgba(165, 207, 191, 0.493);
+}
+
+.tablas {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  background-color: rgba(198, 198, 198, 0.351);
+  border-radius: 10px;
+}
+.tablas th {
+  padding: 15px;
+}
+.tablas td {
+  padding-left: 10px;
+}
+
+#clearLocalStorage {
+  padding: 10px;
+  margin: 5px;
+  position: fixed;
+  bottom: 0%;
+}
+
+footer {
+  right: 0%;
+  position: fixed;
+  bottom: 0%;
+  margin: 5px;
+}/*# sourceMappingURL=style.css.map */

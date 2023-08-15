@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="stylesheet" href="./scss/style.scss">
+    <title>VetCare | Administración | Turnos </title>
+</head>
+<body class="bg">
+    <header class="header-txt">
+        <p>VetCare</p>
+        <p>Daira Haunau</p>
+    </header>
+
+    <main>
+        <section>
+            <nav>
+                <ul class="navbar-index">
+                    <li> <a href="#">Inicio</a></li>
+                    <li> <a href="#">Clinica</a></li>
+                    <li class="borde"> <a href="#">Administracion</a> </li>
+                    <li> <a href="#">Estadísticas</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <div class="turnos" id="turnos">
+            <p id="programados">Turnos Programados</p>
+            <p class="borde">Turnos Espontáneos</p>
+        </div>
+
+        <div id="containerh3"></div>
+        <div id="containerForm">
+            <form id="formEspontaneos">
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre"><br><br>
+                <input type="text" id="motivo" name="motivo" placeholder="Ingrese Motivo"><br><br>
+                <button type="submit" id="submit">Guardar</button>
+                <button type="reset">Borrar</button>
+            </form>
+            
+        </div>
+
+        <table id="dataTable" class="tablas">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Motivo</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody id="dataBody">
+                <!-- Datos se insertarán aquí dinámicamente -->
+            </tbody>
+        </table>
+        <button id="clearLocalStorage">Borrar Lista ⚠️</button>
+    </main>
+    <div id="output"></div>
+    <footer id="footer"> 
+
+    </footer>
+    <script src="./js/main.js" defer></script>
+</body>
+</html>
